@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>A Little World of Magic for Rebecca ♡</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;700&family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Great+Vibes&family=Quicksand:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css"></head>
+<body>
+<button id="music" class="glass" aria-pressed="false" aria-label="Play music and sounds">♫</button>
+<audio id="audio" loop preload="none"></audio>
+
+<section id="intro">
+  <div class="hearts"></div>
+  <p class="serif lead" id="introLine"></p>
+  <div class="envelope" aria-hidden="true"><div class="env-back"></div><div class="env-card">Rebecca ♡</div><div class="env-front"></div><div class="env-flap"></div><span class="env-seal">♡</span></div>
+  <h1 class="script">A Little Birthday Surprise for Rebecca ♡</h1>
+  <button class="btn" id="openBtn">Open Your Surprise ✨</button>
+  <button class="link" id="skipBtn">Skip the animation</button>
+</section>
+
+<main id="main" hidden>
+  <header class="hero">
+    <div class="hearts"></div>
+    <p class="kicker">HAPPY 19TH BIRTHDAY</p>
+    <h1 class="script big">Rebecca Nazareth ♡</h1>
+    <div class="nineteen"><i class="aura"></i><span aria-label="19">19</span><b class="tw t1">✦</b><b class="tw t2">🌸</b><b class="tw t3">♡</b><b class="tw t4">✧</b></div>
+    <div class="polaroid hero-photo" id="heroPhoto"></div>
+    <p class="serif lead" id="heroLines"></p>
+    <a class="btn" href="#letter">A Little Message for You 💌</a>
+  </header>
+
+  <section id="letter" class="section"><article class="glass letter"><h2 class="script" id="letterTitle"></h2><div id="letterBody"></div></article></section>
+
+  <section class="section center">
+    <h2 class="title script">A Card, Just for You</h2>
+    <div class="card-wrap"><div class="card-inside"><p id="cardText" class="hand"></p></div>
+      <button class="card-cover" id="cardCover" aria-expanded="false" aria-label="Open the card"><i class="rib v"></i><i class="rib h"></i><span class="seal">♡</span><span class="script tap">tap to open</span></button></div>
+    <div class="stack"><button class="btn" id="loveBtn">Send Rebecca Some Love 💕</button><div class="cake small" id="cardCake"></div><button class="btn-ghost" id="blowBtn" aria-pressed="true">Blow out the candles 💨</button></div>
+  </section>
+
+  <section class="section"><h2 class="title script">19 Little Wishes for Your Beautiful Year ✨</h2><ul class="wishes" id="wishes"></ul></section>
+  <section class="section"><h2 class="title script">Little Things That Make This Day Special 📸</h2><div class="scrap" id="scrap"></div></section>
+
+  <section class="night center" id="night"><div class="stars"></div><div class="inner">
+    <h2 class="script title light">Make a Little Wish, Birthday Girl 🌙</h2><div class="moon" aria-hidden="true"></div>
+    <p class="serif lead" id="wishPrompt"></p><button class="btn" id="wishBtn">My Wish Is Made ✨</button><p class="hand reveal" id="wishReveal" role="status"></p></div></section>
+
+  <section class="night finale center"><div class="balloons" aria-hidden="true"><i></i><i></i><i></i><i></i></div>
+    <h2 class="script title light">Make a Wish, Rebecca! 🎂</h2><p class="serif lead" id="finaleLine"></p>
+    <div class="cake" id="bigCake"></div><button class="btn" id="celebrateBtn">Celebrate Rebecca! 🎉</button>
+    <div class="finale-msg" id="finaleMsg" role="status"><div class="n19">19</div></div></section>
+  <footer class="script">Made with love, just for you ♡</footer>
+</main>
+<script src="config.js"></script><script src="script.js"></script></body></html>
