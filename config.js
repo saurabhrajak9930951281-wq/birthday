@@ -2,7 +2,7 @@
 window.CONFIG = {
   music: 'audio/song.mp3', heroPhoto: 'photos/rebecca-hero.jpg',
   introLine: 'Someone as special as you deserves something a little magical…',
-  heroLines: ['“Today, the world celebrates the day someone truly special came into existence.”', '“Born on 2 October 2007, made to shine in her own beautiful way.”'],
+  heroLines: ['“Today, the world celebrates the day someone truly special came into existence.”', '“Born on 9 October 2007, made to shine in her own beautiful way.”'],
   letterTitle: 'To the Girl Who Makes the World a Little Sweeter ♡',
   letter: [
     'Dear Rebecca,',
